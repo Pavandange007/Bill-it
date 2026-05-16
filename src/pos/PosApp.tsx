@@ -7,6 +7,7 @@ import { BillingSummary } from '../components/BillingSummary'
 import { ReceiptModal } from '../components/ReceiptModal'
 import { OrderHistory, type OrderRecord } from '../components/OrderHistory'
 import type { CartById, CartItem, MenuItem } from '../types/pos'
+import { MENU_CATEGORIES } from '../types/pos'
 import { computeTotals } from '../utils/calculations'
 import { formatCurrency } from '../utils/money'
 import { useLocalStorageState } from '../utils/storage'
@@ -73,7 +74,7 @@ function removeItem(prev: CartById, itemId: string): CartById {
 
 export function PosApp(): React.JSX.Element {
   const [cartById, setCartById] = useLocalStorageState<CartById>('billit.cartById.v1', {})
-  const [menuItems, setMenuItems] = useLocalStorageState<MenuItem[]>('billit.menuItems.v1', defaultMenuItems)
+  const [menuItems, setMenuItems] = useLocalStorageState<MenuItem[]>('billit.menuItems.v2', defaultMenuItems)
   const [orderHistory, setOrderHistory] = useLocalStorageState<OrderRecord[]>('billit.orderHistory.v1', [])
   const [isReceiptOpen, setIsReceiptOpen] = useState<boolean>(false)
   const [editingMenuItemId, setEditingMenuItemId] = useState<string | null>(null)
@@ -232,7 +233,7 @@ function MenuItemEditor(props: MenuItemEditorProps): React.JSX.Element {
   const [name, setName] = useState<string>(initialItem?.name ?? '')
   const [description, setDescription] = useState<string>(initialItem?.description ?? '')
   const [price, setPrice] = useState<string>(String(initialItem?.price ?? ''))
-  const [category, setCategory] = useState<MenuItem['category']>(initialItem?.category ?? 'Appetizers')
+  const [category, setCategory] = useState<MenuItem['category']>(initialItem?.category ?? MENU_CATEGORIES[0])
   const [imageUrl, setImageUrl] = useState<string>(initialItem?.imageUrl ?? '')
   const [photoError, setPhotoError] = useState<string>('')
 
@@ -291,10 +292,11 @@ function MenuItemEditor(props: MenuItemEditorProps): React.JSX.Element {
             onChange={(e) => setCategory(e.target.value as MenuItem['category'])}
             className="w-full rounded-xl border border-zinc-200 bg-white px-3 py-2 text-sm text-zinc-900 outline-none focus:ring-2 focus:ring-zinc-300"
           >
-            <option value="Appetizers">Appetizers</option>
-            <option value="Mains">Mains</option>
-            <option value="Drinks">Drinks</option>
-            <option value="Desserts">Desserts</option>
+            {MENU_CATEGORIES.map((cat) => (
+              <option key={cat} value={cat}>
+                {cat}
+              </option>
+            ))}
           </select>
         </label>
 

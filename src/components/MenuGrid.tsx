@@ -16,7 +16,7 @@ function classNames(...values: Array<string | false | null | undefined>): string
 }
 
 export function MenuGrid({ items, onAddItem, onAddMenuItem, onEditMenuItem }: MenuGridProps): React.JSX.Element {
-  const [activeCategory, setActiveCategory] = React.useState<MenuCategory>('Appetizers')
+  const [activeCategory, setActiveCategory] = React.useState<MenuCategory>(MENU_CATEGORIES[0])
   const [query, setQuery] = React.useState<string>('')
 
   const filtered = React.useMemo(() => {

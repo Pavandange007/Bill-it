@@ -7,7 +7,23 @@ export interface MenuItem {
   imageUrl: string | null
 }
 
-export const MENU_CATEGORIES = ['Appetizers', 'Mains', 'Drinks', 'Desserts'] as const
+export const MENU_CATEGORIES = [
+  'Coffee & Shakes',
+  'Beverages',
+  'Pasta',
+  'Sandwiches',
+  'Momos',
+  'Maggie',
+  'Snacks',
+  'Burgers',
+  'Veg Pizza',
+  'Non-Veg Pizza',
+  'Chicken',
+  'Combos',
+  'Pizza Mania',
+  'Extras',
+] as const
+
 export type MenuCategory = (typeof MENU_CATEGORIES)[number]
 
 export interface CartItem {
@@ -24,4 +40,3 @@ export interface Totals {
   subtotal: number
   grandTotal: number
 }
-
