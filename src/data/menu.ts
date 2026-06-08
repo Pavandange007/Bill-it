@@ -7,7 +7,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 20,
     category: 'Coffee & Shakes',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-2',
@@ -15,7 +15,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 30,
     category: 'Coffee & Shakes',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-3',
@@ -23,7 +23,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 49,
     category: 'Coffee & Shakes',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-4',
@@ -31,7 +31,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 59,
     category: 'Coffee & Shakes',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-5',
@@ -39,7 +39,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 69,
     category: 'Coffee & Shakes',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-6',
@@ -47,7 +47,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 79,
     category: 'Coffee & Shakes',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-7',
@@ -55,7 +55,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 79,
     category: 'Coffee & Shakes',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-8',
@@ -63,7 +63,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 79,
     category: 'Coffee & Shakes',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1553787499-6f9133860278?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-9',
@@ -71,7 +71,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 50,
     category: 'Beverages',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-10',
@@ -79,7 +79,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 50,
     category: 'Beverages',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-11',
@@ -87,7 +87,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 50,
     category: 'Beverages',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-12',
@@ -95,7 +95,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 50,
     category: 'Beverages',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-13',
@@ -103,7 +103,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 50,
     category: 'Beverages',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1608889175123-8ec330b86f84?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-14',
@@ -111,7 +111,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 50,
     category: 'Beverages',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-15',
@@ -119,7 +119,7 @@ export const menuItems: MenuItem[] = [
     description: 'Sold at MRP',
     price: 40,
     category: 'Beverages',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-16',
@@ -127,7 +127,7 @@ export const menuItems: MenuItem[] = [
     description: 'Sold at MRP',
     price: 40,
     category: 'Beverages',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-17',
@@ -135,7 +135,7 @@ export const menuItems: MenuItem[] = [
     description: 'Sold at MRP',
     price: 20,
     category: 'Beverages',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1608889175123-8ec330b86f84?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-18',
@@ -143,7 +143,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 119,
     category: 'Pasta',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-19',
@@ -151,7 +151,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 119,
     category: 'Pasta',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-20',
@@ -159,7 +159,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 119,
     category: 'Pasta',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-21',
@@ -167,7 +167,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 150,
     category: 'Pasta',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-22',
@@ -175,7 +175,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 199,
     category: 'Pasta',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-23',
@@ -183,7 +183,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 59,
     category: 'Sandwiches',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1538587888044-79f13ddd7e49?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-24',
@@ -191,7 +191,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 69,
     category: 'Sandwiches',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1538587888044-79f13ddd7e49?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-25',
@@ -199,7 +199,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 79,
     category: 'Sandwiches',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1538587888044-79f13ddd7e49?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-26',
@@ -207,7 +207,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 89,
     category: 'Sandwiches',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1538587888044-79f13ddd7e49?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-27',
@@ -215,7 +215,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 89,
     category: 'Sandwiches',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1538587888044-79f13ddd7e49?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-28',
@@ -223,7 +223,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 89,
     category: 'Sandwiches',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1538587888044-79f13ddd7e49?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-29',
@@ -231,7 +231,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 99,
     category: 'Sandwiches',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1538587888044-79f13ddd7e49?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-30',
@@ -239,7 +239,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 119,
     category: 'Sandwiches',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1538587888044-79f13ddd7e49?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-31',
@@ -247,7 +247,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 119,
     category: 'Sandwiches',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1538587888044-79f13ddd7e49?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-32',
@@ -255,7 +255,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 119,
     category: 'Sandwiches',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1538587888044-79f13ddd7e49?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-33',
@@ -263,7 +263,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 59,
     category: 'Momos',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-34',
@@ -271,7 +271,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 69,
     category: 'Momos',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-35',
@@ -279,7 +279,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 79,
     category: 'Momos',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-36',
@@ -287,7 +287,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 89,
     category: 'Momos',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-37',
@@ -295,7 +295,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 79,
     category: 'Momos',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-38',
@@ -303,7 +303,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 89,
     category: 'Momos',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-39',
@@ -311,7 +311,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 49,
     category: 'Maggie',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-40',
@@ -319,7 +319,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 59,
     category: 'Maggie',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-41',
@@ -327,7 +327,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 69,
     category: 'Maggie',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-42',
@@ -335,7 +335,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 69,
     category: 'Maggie',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-43',
@@ -343,7 +343,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 79,
     category: 'Maggie',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-44',
@@ -351,7 +351,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 79,
     category: 'Snacks',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-45',
@@ -359,7 +359,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 89,
     category: 'Snacks',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-46',
@@ -367,7 +367,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 99,
     category: 'Snacks',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-47',
@@ -375,7 +375,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 99,
     category: 'Snacks',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-48',
@@ -383,7 +383,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 119,
     category: 'Snacks',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-49',
@@ -391,7 +391,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 109,
     category: 'Snacks',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-50',
@@ -399,7 +399,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 129,
     category: 'Snacks',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1541532713592-79a0317b6b77?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-51',
@@ -407,7 +407,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 99,
     category: 'Snacks',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-52',
@@ -415,7 +415,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 79,
     category: 'Snacks',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-53',
@@ -423,7 +423,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 89,
     category: 'Snacks',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-54',
@@ -431,7 +431,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 149,
     category: 'Snacks',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1541532713592-79a0317b6b77?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-55',
@@ -439,7 +439,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 129,
     category: 'Snacks',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-56',
@@ -447,7 +447,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 49,
     category: 'Burgers',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-57',
@@ -455,7 +455,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 59,
     category: 'Burgers',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-58',
@@ -463,7 +463,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 69,
     category: 'Burgers',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-59',
@@ -471,7 +471,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 79,
     category: 'Burgers',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-60',
@@ -479,7 +479,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 89,
     category: 'Burgers',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-61',
@@ -487,7 +487,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 89,
     category: 'Burgers',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-62',
@@ -495,7 +495,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 99,
     category: 'Burgers',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-63',
@@ -503,7 +503,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 99,
     category: 'Burgers',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-64',
@@ -511,7 +511,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 109,
     category: 'Burgers',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-65',
@@ -519,7 +519,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella Cheese',
     price: 99,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-66',
@@ -527,7 +527,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella Cheese',
     price: 219,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-67',
@@ -535,7 +535,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella Cheese, Sweet Corn',
     price: 109,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-68',
@@ -543,7 +543,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella Cheese, Sweet Corn',
     price: 229,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-69',
@@ -551,7 +551,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella Cheese, Tomato',
     price: 109,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-70',
@@ -559,7 +559,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella Cheese, Tomato',
     price: 229,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-71',
@@ -567,7 +567,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Tomato, Capsicum, Red Peprika',
     price: 139,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-72',
@@ -575,7 +575,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Tomato, Capsicum, Red Peprika',
     price: 249,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-73',
@@ -583,7 +583,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Capsicum, Tomato, Corn',
     price: 139,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-74',
@@ -591,7 +591,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Capsicum, Tomato, Corn',
     price: 249,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-75',
@@ -599,7 +599,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Tomato, Sweet Corn, Paneer',
     price: 139,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-76',
@@ -607,7 +607,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Tomato, Sweet Corn, Paneer',
     price: 249,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-77',
@@ -615,7 +615,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Olive, Red Peprika, Mushroom',
     price: 139,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-78',
@@ -623,7 +623,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Olive, Red Peprika, Mushroom',
     price: 249,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-79',
@@ -631,7 +631,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Green Capsicum, Tomato, Tandoori Paneer',
     price: 159,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-80',
@@ -639,7 +639,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Green Capsicum, Tomato, Tandoori Paneer',
     price: 269,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-81',
@@ -647,7 +647,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Red Capsicum, Corn, Olive, Makhani Paneer',
     price: 159,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-82',
@@ -655,7 +655,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Red Capsicum, Corn, Olive, Makhani Paneer',
     price: 269,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-83',
@@ -663,7 +663,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Green Capsicum, Jalapeno, Kadai Paneer',
     price: 159,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-84',
@@ -671,7 +671,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Green Capsicum, Jalapeno, Kadai Paneer',
     price: 269,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-85',
@@ -679,7 +679,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Capsicum, Olive, BBQ Paneer',
     price: 159,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-86',
@@ -687,7 +687,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Capsicum, Olive, BBQ Paneer',
     price: 269,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-87',
@@ -695,7 +695,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Capsicum, Tomato, Peri Peri Paneer',
     price: 159,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-88',
@@ -703,7 +703,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Capsicum, Tomato, Peri Peri Paneer',
     price: 269,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-89',
@@ -711,7 +711,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella Cheese, Burst Dressing',
     price: 159,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-90',
@@ -719,7 +719,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella Cheese, Burst Dressing',
     price: 269,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-91',
@@ -727,7 +727,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Corn, Mushroom, Baby Corn',
     price: 219,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-92',
@@ -735,7 +735,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Corn, Mushroom, Baby Corn',
     price: 299,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-93',
@@ -743,7 +743,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Paneer, Jalapeno, Olive, Pineapple',
     price: 219,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-94',
@@ -751,7 +751,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Paneer, Jalapeno, Olive, Pineapple',
     price: 299,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-95',
@@ -759,7 +759,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Black Olive, Jalapeno, Sweet Corn',
     price: 219,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-96',
@@ -767,7 +767,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Black Olive, Jalapeno, Sweet Corn',
     price: 299,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-97',
@@ -775,7 +775,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Capsicum, Corn, Paneer, Olive, Pineapple',
     price: 219,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-98',
@@ -783,7 +783,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Capsicum, Corn, Paneer, Olive, Pineapple',
     price: 299,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-99',
@@ -791,7 +791,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Sweet Corn, Olive, Paneer, Baby Corn',
     price: 219,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-100',
@@ -799,7 +799,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Sweet Corn, Olive, Paneer, Baby Corn',
     price: 299,
     category: 'Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-101',
@@ -807,7 +807,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella Cheese, Plain Chicken',
     price: 119,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-102',
@@ -815,7 +815,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella Cheese, Plain Chicken',
     price: 229,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-103',
@@ -823,7 +823,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Sweet Corn, Plain Chicken',
     price: 119,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-104',
@@ -831,7 +831,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Sweet Corn, Plain Chicken',
     price: 229,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-105',
@@ -839,7 +839,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Tomato, Makhani Chicken',
     price: 119,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-106',
@@ -847,7 +847,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Tomato, Makhani Chicken',
     price: 229,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-107',
@@ -855,7 +855,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Tomato, Capsicum, Spicy Chicken',
     price: 159,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-108',
@@ -863,7 +863,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Tomato, Capsicum, Spicy Chicken',
     price: 269,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-109',
@@ -871,7 +871,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Capsicum, Tomato, Chicken Meatball',
     price: 159,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-110',
@@ -879,7 +879,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Capsicum, Tomato, Chicken Meatball',
     price: 269,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-111',
@@ -887,7 +887,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Green Capsicum, Chicken Salami',
     price: 159,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-112',
@@ -895,7 +895,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Green Capsicum, Chicken Salami',
     price: 269,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-113',
@@ -903,7 +903,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Olive, Mushroom, Chicken',
     price: 159,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-114',
@@ -911,7 +911,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Onion, Olive, Mushroom, Chicken',
     price: 269,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-115',
@@ -919,7 +919,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Tomato, Tandoori Chicken',
     price: 209,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-116',
@@ -927,7 +927,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Tomato, Tandoori Chicken',
     price: 309,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-117',
@@ -935,7 +935,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Red Capsicum, Corn, Makhani Chicken',
     price: 209,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-118',
@@ -943,7 +943,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Red Capsicum, Corn, Makhani Chicken',
     price: 309,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-119',
@@ -951,7 +951,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Jalapeno, Kadai Chicken',
     price: 209,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-120',
@@ -959,7 +959,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Jalapeno, Kadai Chicken',
     price: 309,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-121',
@@ -967,7 +967,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Olive, BBQ Chicken',
     price: 209,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-122',
@@ -975,7 +975,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Olive, BBQ Chicken',
     price: 309,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-123',
@@ -983,7 +983,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Tomato, Peri Peri Chicken',
     price: 209,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-124',
@@ -991,7 +991,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Tomato, Peri Peri Chicken',
     price: 309,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-125',
@@ -999,7 +999,7 @@ export const menuItems: MenuItem[] = [
     description: 'Chicken Pepperoni & Mozzarella Cheese',
     price: 209,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-126',
@@ -1007,7 +1007,7 @@ export const menuItems: MenuItem[] = [
     description: 'Chicken Pepperoni & Mozzarella Cheese',
     price: 309,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-127',
@@ -1015,7 +1015,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Broccoli, Mushroom, Meatball',
     price: 269,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-128',
@@ -1023,7 +1023,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Broccoli, Mushroom, Meatball',
     price: 379,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-129',
@@ -1031,7 +1031,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Olive, Pineapple, Spicy & Makhani Chicken',
     price: 269,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-130',
@@ -1039,7 +1039,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Olive, Pineapple, Spicy & Makhani Chicken',
     price: 379,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-131',
@@ -1047,7 +1047,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Jalapeno, Olive, Plain & BBQ Chicken',
     price: 269,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-132',
@@ -1055,7 +1055,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Jalapeno, Olive, Plain & BBQ Chicken',
     price: 379,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-133',
@@ -1063,7 +1063,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Olive, Salami, Tandoori Chicken, Meatball',
     price: 269,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-134',
@@ -1071,7 +1071,7 @@ export const menuItems: MenuItem[] = [
     description: 'Mozzarella, Capsicum, Olive, Salami, Tandoori Chicken, Meatball',
     price: 379,
     category: 'Non-Veg Pizza',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-135',
@@ -1079,7 +1079,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 129,
     category: 'Combos',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-136',
@@ -1087,7 +1087,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 129,
     category: 'Combos',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-137',
@@ -1095,7 +1095,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 149,
     category: 'Combos',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-138',
@@ -1103,7 +1103,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 179,
     category: 'Combos',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-139',
@@ -1111,7 +1111,7 @@ export const menuItems: MenuItem[] = [
     description: '12 PM - 5 PM',
     price: 89,
     category: 'Pizza Mania',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-140',
@@ -1119,7 +1119,7 @@ export const menuItems: MenuItem[] = [
     description: '12 PM - 5 PM',
     price: 59,
     category: 'Pizza Mania',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-141',
@@ -1127,7 +1127,7 @@ export const menuItems: MenuItem[] = [
     description: '12 PM - 5 PM',
     price: 99,
     category: 'Pizza Mania',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-142',
@@ -1135,7 +1135,7 @@ export const menuItems: MenuItem[] = [
     description: 'Grilled/Kadai/Makhani/Tandoori Chicken, Pepperoni, Meatball',
     price: 49,
     category: 'Extras',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-143',
@@ -1143,7 +1143,7 @@ export const menuItems: MenuItem[] = [
     description: 'Grilled/Kadai/Makhani/Tandoori Chicken, Pepperoni, Meatball',
     price: 69,
     category: 'Extras',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-144',
@@ -1151,7 +1151,7 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 59,
     category: 'Extras',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=500&q=80',
   },
   {
     id: 'pp-145',
@@ -1159,6 +1159,6 @@ export const menuItems: MenuItem[] = [
     description: '',
     price: 79,
     category: 'Extras',
-    imageUrl: null,
+    imageUrl: 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=500&q=80',
   }
 ]

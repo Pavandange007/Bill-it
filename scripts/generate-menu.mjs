@@ -17,6 +17,85 @@ const C = {
 const items = []
 let n = 0
 
+function getImageUrl(name, category) {
+  const lowerName = name.toLowerCase()
+  const lowerCat = category.toLowerCase()
+
+  if (lowerName.includes('black coffee')) {
+    return 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=500&q=80'
+  }
+  if (lowerName.includes('cold coffee') || lowerName.includes('shake')) {
+    if (lowerName.includes('orio') || lowerName.includes('oreo')) {
+      return 'https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=500&q=80'
+    }
+    if (lowerName.includes('strawberry')) {
+      return 'https://images.unsplash.com/photo-1553787499-6f9133860278?auto=format&fit=crop&w=500&q=80'
+    }
+    return 'https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=500&q=80'
+  }
+  if (lowerName.includes('coffee')) {
+    return 'https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=500&q=80'
+  }
+  if (lowerCat === 'beverages') {
+    if (lowerName.includes('coke') || lowerName.includes('sprite')) {
+      return 'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=500&q=80'
+    }
+    if (lowerName.includes('water')) {
+      return 'https://images.unsplash.com/photo-1608889175123-8ec330b86f84?auto=format&fit=crop&w=500&q=80'
+    }
+    return 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=500&q=80'
+  }
+  if (lowerCat === 'pasta') {
+    return 'https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=500&q=80'
+  }
+  if (lowerCat === 'sandwiches') {
+    return 'https://images.unsplash.com/photo-1538587888044-79f13ddd7e49?auto=format&fit=crop&w=500&q=80'
+  }
+  if (lowerCat === 'momos') {
+    return 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=500&q=80'
+  }
+  if (lowerCat === 'maggie') {
+    return 'https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=500&q=80'
+  }
+  if (lowerName.includes('fries')) {
+    return 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=500&q=80'
+  }
+  if (lowerName.includes('garlic bread')) {
+    return 'https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?auto=format&fit=crop&w=500&q=80'
+  }
+  if (lowerName.includes('popcorn') || lowerName.includes('nuggets')) {
+    return 'https://images.unsplash.com/photo-1562967914-608f82629710?auto=format&fit=crop&w=500&q=80'
+  }
+  if (lowerCat === 'snacks') {
+    return 'https://images.unsplash.com/photo-1541532713592-79a0317b6b77?auto=format&fit=crop&w=500&q=80'
+  }
+  if (lowerCat === 'burgers') {
+    return 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=500&q=80'
+  }
+  if (lowerCat === 'veg pizza' || lowerCat === 'non-veg pizza' || lowerCat === 'pizza mania') {
+    if (lowerName.includes('margherita')) {
+      return 'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=500&q=80'
+    }
+    if (lowerName.includes('paneer')) {
+      return 'https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=500&q=80'
+    }
+    if (lowerName.includes('pepperoni') || lowerName.includes('salami')) {
+      return 'https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&w=500&q=80'
+    }
+    if (lowerName.includes('chicken')) {
+      return 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80'
+    }
+    return 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=500&q=80'
+  }
+  if (lowerName.includes('lava cake')) {
+    return 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=500&q=80'
+  }
+  if (lowerCat === 'combos') {
+    return 'https://images.unsplash.com/photo-1606787366850-de6330128bfc?auto=format&fit=crop&w=500&q=80'
+  }
+  return 'https://images.unsplash.com/photo-1498837167922-ddd27525d352?auto=format&fit=crop&w=500&q=80'
+}
+
 function add(name, price, category, description = '') {
   items.push({
     id: `pp-${++n}`,
@@ -24,7 +103,7 @@ function add(name, price, category, description = '') {
     description,
     price,
     category,
-    imageUrl: null,
+    imageUrl: getImageUrl(name, category),
   })
 }
 
@@ -184,13 +263,14 @@ add('Extra Cheese (10")', 79, C.extra, '')
 
 function formatItem(item) {
   const desc = item.description.replace(/\\/g, '\\\\').replace(/'/g, "\\'")
+  const imgUrlStr = item.imageUrl ? `'${item.imageUrl}'` : 'null'
   return `  {
     id: '${item.id}',
     name: '${item.name.replace(/'/g, "\\'")}',
     description: '${desc}',
     price: ${item.price},
     category: '${item.category}',
-    imageUrl: null,
+    imageUrl: ${imgUrlStr},
   }`
 }
 
